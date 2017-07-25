@@ -12,5 +12,4 @@ RUN  chmod u+x /entrypoint.sh
 VOLUME ["/data"]
 
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["ifaces", "all"]
 
